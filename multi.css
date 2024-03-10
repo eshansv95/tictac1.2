@@ -1,0 +1,75 @@
+.box{
+    background-color:pink;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    padding: 20px;
+    float: left; 
+    cursor: pointer;
+    margin: 5px;
+    color: black;
+    font-size: 40px;
+    border: 0.5px;
+   
+}
+.table{
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    position: absolute;
+    left: 40%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+#new{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+.game{
+    background-color: purple;
+}
+#result{
+    position: absolute;
+    left: 40%;
+    top:70%; 
+    width:500px;
+    height: 60px;
+    font-size: 30px; 
+    color: black;
+    
+
+}
+#single{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#multi{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+body{
+    background-image: url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00NzItMTFkLmpwZw.jpg');
+    background-size: cover;
+}

@@ -1,0 +1,77 @@
+.box{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    padding: 20px;
+    float: left; 
+    cursor: pointer;
+    margin: 5px;
+    color: black;
+    font-size: 40px;
+   
+}
+.table{
+    position: absolute;
+    top: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset{
+    position: absolute;
+    left: 40%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+#new{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+}
+.game{
+    background-color: purple;
+}
+#result{
+    position: absolute;
+    left: 40%;
+    top:70%; 
+    width:500px;
+    height: 60px;
+    font-size: 30px; 
+    color: black;
+    
+
+}
+#single{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+#multi{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+body {
+    background-image: url('https://img.freepik.com/free-vector/elegant-red-background_1340-4770.jpg?size=338&ext=jpg&ga=GA1.1.1395880969.1709942400&semt=ais');
+    
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes sure the image covers the entire background */
+   opacity: 0.7;
+}
